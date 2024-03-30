@@ -275,6 +275,14 @@ nav {
   background-size: cover;
   padding: 20px 0 85px 0;
 }
+
+#feature .feature-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* -------------------- 3 BUTTONS*/
+
 #feature .feature-left-button {
   display: flex;
   flex-direction: column;
@@ -311,3 +319,33 @@ nav {
   text-align: center;
   align-content: center;
 }
+
+/* -------------------- MIDDLE TEXT */
+#swipe-text-container .swipe-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 20px;
+  max-width: 509px;
+}
+#swipe-text-container .swipe-text .text-container {
+  margin-bottom: 20px;
+  color: white;
+}
+#swipe-text-container .swipe-text .text-container h1 {
+  text-align: left;
+  font: normal normal 600 36px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+#swipe-text-container .swipe-text .text-container p {
+  text-align: left;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* -------------------- MIDDLE IMAGES */
