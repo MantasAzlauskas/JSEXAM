@@ -23,7 +23,6 @@ nav {
 }
 #header-rigth-nav {
   position: relative;
-
   display: flex;
 }
 #header-rigth-nav a {
@@ -55,10 +54,18 @@ nav {
   top: 72px;
   left: 0px;
   height: 670px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
+
+/* -------------------- LEFT SIDE */
+
 #left-text-article-1 {
   width: 651px;
   height: 639px;
+  left: 20px;
+  position: relative;
 }
 #text {
   color: white;
@@ -67,7 +74,7 @@ nav {
 #text h1 {
   top: 268px;
   left: 147px;
-  width: 411px;
+  width: 430px;
   height: 87px;
   text-align: left;
   font: normal normal 600 36px/43px Montserrat;
@@ -103,4 +110,110 @@ nav {
   margin: 25px 0;
   outline: 0;
   cursor: pointer;
+}
+#text button:hover {
+  border: 2px solid #e27866;
+}
+
+/* -------------------- RIGHT SIDE */
+
+#form {
+  top: 147px;
+  left: 892px;
+  width: 360px;
+  height: 425px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 20px #00000029;
+  opacity: 1;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}
+#form h1 {
+  top: 147px;
+  left: 892px;
+  width: 360px;
+  height: 57px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  border-radius: 5px 5px 0px 0px;
+  opacity: 1;
+  align-content: center;
+  margin: 0;
+  font: normal normal 600 20px/24px Montserrat;
+}
+#form h1 span {
+  color: #e27866;
+  font: normal normal 600 20px/24px Montserrat;
+}
+#form fieldset {
+  border: none;
+  width: 240px;
+  margin: 0 auto;
+}
+#form form fieldset:first-of-type .form-detail-text {
+  margin-top: 30px;
+}
+.form-detail-text {
+  text-align: left;
+  font: normal normal 600 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #1c1c1c;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+#form form fieldset input {
+  outline: none;
+  margin-bottom: 29px;
+  font-family: "Montserrat";
+  padding-bottom: 4px;
+  padding-left: 10px;
+}
+#form form fieldset input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 12px;
+  width: 240px;
+}
+#form form fieldset input[type="number"] {
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 12px;
+  width: 240px;
+  margin-bottom: 0;
+}
+#form form fieldset .input-wrap {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  gap: 5px;
+}
+#form form fieldset label {
+  width: 47px;
+  height: 11px;
+  text-align: left;
+  font: normal normal 600 9px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+}
+#form form button {
+  background-color: #41d395;
+  border: none;
+  width: 100%;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0px 0px 5px 5px;
+}
+#form form button:hover {
+  background-color: rgb(97, 230, 174);
 }
