@@ -261,3 +261,53 @@ nav {
 #social-media .container .media-icon-container .media-icon {
   max-height: 30px;
 }
+/* --------------------------------------------------------------- FEATURE ------------------------------------------------- */
+
+#feature {
+  background-image: url("assets/christoffer-engstrom-503481-unsplash.png"),
+    linear-gradient(rgba(226, 120, 102, 0.42), rgba(102, 150, 226, 0.42));
+  background-blend-mode: overlay;
+  top: 816px;
+  left: 0px;
+  height: 595px;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0 85px 0;
+}
+#feature .feature-left-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 340px;
+}
+#feature .feature-left-button .feature-button:nth-child(1) {
+  background: url(./assets/tab_1_button_u83_selected.svg);
+  top: 943px;
+  left: 151px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+#feature .feature-left-button .feature-button {
+  background: url(./assets/tab_2_button_u85_mouseover.svg);
+  top: 943px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#feature .feature-left-button .feature-button span {
+  width: 64px;
+  height: 64px;
+  font: normal normal 600 14px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  transform: rotate(315deg);
+  text-align: center;
+  align-content: center;
+}
