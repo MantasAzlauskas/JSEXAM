@@ -217,3 +217,47 @@ nav {
 #form form button:hover {
   background-color: rgb(97, 230, 174);
 }
+
+/* --------------------------------------------------------------- Media Bar------------------------------------------------- */
+
+#social-media .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1109px;
+  margin: 0 auto;
+}
+#social-media .container .text {
+  width: 394px;
+}
+#social-media .container .text h2 {
+  width: 130px;
+  height: 24px;
+  text-align: left;
+  font: normal normal 600 20px Montserrat;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+#social-media .container .text p {
+  top: 759px;
+  left: 152px;
+  width: 394px;
+  height: 38px;
+  text-align: left;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #86878b;
+  opacity: 1;
+}
+#social-media .container .media-icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 560px;
+}
+#social-media .container .media-icon-container .media-icon {
+  max-height: 30px;
+}
