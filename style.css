@@ -333,22 +333,32 @@ nav {
 
 /* -------------------- 3 BUTTONS*/
 
+#feature {
+  background-image: url("assets/christoffer-engstrom-503481-unsplash.png"),
+    linear-gradient(rgba(226, 120, 102, 0.42), rgba(102, 150, 226, 0.42));
+  background-blend-mode: overlay;
+  top: 816px;
+  left: 0px;
+  height: 595px;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0 85px 0;
+  align-content: center;
+  justify-self: center;
+}
+/* -------------------- 3 BUTTONS*/
+
 #feature .feature-left-button {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 340px;
-}
-#feature .feature-left-button .feature-button:nth-child(1) {
-  background: url(./assets/tab_1_button_u83_selected.svg);
-  top: 943px;
+  justify-content: center;
+  max-width: 342px;
+  position: relative;
   left: 151px;
-  width: 100px;
-  height: 100px;
-  opacity: 1;
+  padding-right: 100px;
 }
-#feature .feature-left-button .feature-button {
+#feature .feature-left-button .feature-button-box {
   background: url(./assets/tab_2_button_u85_mouseover.svg);
   top: 943px;
   width: 100px;
@@ -357,8 +367,22 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  font: normal normal 600 14px/20px Montserrat;
 }
-#feature .feature-left-button .feature-button span {
+#feature .feature-left-button .feature-button-box:hover {
+  background: url(./assets/tab_1_button_u83_selected.svg);
+  top: 943px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font: normal normal 600 14px/20px Montserrat;
+}
+#feature .feature-left-button .feature-button-box span {
   width: 64px;
   height: 64px;
   font: normal normal 600 14px Montserrat;
@@ -371,16 +395,23 @@ nav {
 }
 
 /* -------------------- MIDDLE TEXT */
+#swipe-text-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
 #swipe-text-container .swipe-text {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 0 20px;
   margin-top: 20px;
-  max-width: 509px;
+  width: 100%;
 }
 #swipe-text-container .swipe-text .text-container {
   margin-bottom: 20px;
+  padding-right: 80px;
   color: white;
 }
 #swipe-text-container .swipe-text .text-container h1 {
@@ -389,6 +420,8 @@ nav {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
+  width: 509px;
+  height: 124px;
 }
 #swipe-text-container .swipe-text .text-container p {
   text-align: left;
@@ -396,6 +429,85 @@ nav {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
+  width: 517px;
+  height: 138px;
 }
 
 /* -------------------- MIDDLE IMAGES */
+
+.tab-images-box {
+  display: flex;
+  width: 362px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text-container h1 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.text-container p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.image-cabbages {
+  width: 168px;
+  height: 168px;
+  background-image: url(photo-1493409137604-0901c55e4456.png);
+  background-size: cover;
+  /* display: inline block; */
+  box-sizing: border-box;
+}
+
+.image-vegetable-composition {
+  width: 168px;
+  height: 168px;
+  background-image: url(photo-1543364195-bfe6e4932397.png);
+  background-size: cover;
+  /* display: inline block; */
+  box-sizing: border-box;
+}
+
+.image-running-stais {
+  width: 362px;
+  height: 177px;
+  background-image: url(photo-1448387473223-5c37445527e7.png);
+  margin-top: 20px;
+  /* display: inline block; */
+  box-sizing: border-box;
+}
+
+.image {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+/* .explore {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #e27866;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+} */
+
+.image:hover {
+  cursor: pointer;
+}
+
+.image:hover .explore {
+  display: block;
+}
+
+.not-displayed {
+  display: none;
+}
