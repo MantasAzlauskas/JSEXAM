@@ -200,6 +200,56 @@ nav {
   text-align: center;
   display: flex;
 }
+#form form fieldset .input-wrap .radio-button-input[type="radio"] {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  appearance: none;
+  outline: none;
+  border: 1px solid #41d395;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#form
+  form
+  fieldset
+  .input-wrap
+  .radio-button-input[type="radio"]:not(:checked) {
+  opacity: 0.5;
+}
+
+#form
+  form
+  fieldset
+  .input-wrap
+  .radio-button-input[type="radio"]:checked
+  + .radio-button-label
+  span {
+  opacity: 1;
+}
+
+#form form fieldset .input-wrap .radio-button-input[type="radio"]::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  background-color: #41d395;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+#form
+  form
+  fieldset
+  .input-wrap
+  .radio-button-input[type="radio"]:checked::before {
+  opacity: 1;
+}
+
 #form form button {
   background-color: #41d395;
   border: none;
