@@ -540,3 +540,79 @@ nav {
   margin: 0px;
   font: normal normal normal 14px/20px Montserrat;
 }
+/* ---------------------------------------------------------------  Awesome  ------------------------------------------------- */
+
+#awesome-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px 0px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.awesome-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.awesome-header h2 {
+  color: #212121;
+  margin-top: 25px;
+  display: inline;
+  font: normal normal 600 36px/43px Montserrat;
+}
+
+.awesome-divider {
+  width: 64px;
+  height: 2px;
+  background-color: #e27866;
+  margin-bottom: 15px;
+}
+
+.awesome-header p {
+  color: #86878b;
+  font: normal normal normal 14px/20px Montserrat;
+}
+
+.awesome-items-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.awesome-items {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 300px;
+  text-align: center;
+}
+
+.awesome-icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #e27866;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e27866;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.awesome-items h4 {
+  font: normal normal normal 20px/24px Montserrat;
+  margin-bottom: 10px;
+}
+
+.awesome-items p {
+  color: #86878b;
+  font: normal normal normal 14px/20px Montserrat;
+}
