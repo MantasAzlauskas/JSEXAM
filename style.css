@@ -720,3 +720,95 @@ nav {
 .pricing-box-bottom p:last-child {
   margin-bottom: 10px;
 }
+
+/* ---------------------------------------------------------------  Reviews  ------------------------------------------------- */
+
+#reviews {
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+.reviews-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews-header h2 {
+  color: #1c1c1c;
+  font: normal normal 600 36px/43px Montserrat;
+}
+
+.reviews-divider {
+  background-color: #6696e2;
+  height: 2px;
+  width: 64px;
+}
+
+#review-gallery {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.review-box {
+  width: 270px;
+  padding: 15px;
+  margin: 40px;
+}
+
+.comment {
+  background-color: #6696e2;
+  border-radius: 8px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.comment::after {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #6696e2;
+  content: "";
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  border-radius: 2px;
+  left: 30px;
+}
+
+.comment p {
+  color: #ffffff;
+  font: normal normal normal 16px/22px Montserrat;
+  margin: 0;
+}
+
+.customer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.customer-info {
+  padding-left: 10px;
+}
+
+.customer-info h6 {
+  color: #333333;
+  font: normal normal normal 20px/24px Montserrat;
+  margin: 0;
+}
+
+.customer-info p {
+  margin: 0;
+  color: #86878b;
+  font: normal normal normal 14px/17px Montserrat;
+}
