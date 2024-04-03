@@ -593,7 +593,87 @@
         </div>
         <div class="pagination"></div>
       </article>
+      <article id="contact">
+        <div class="contact-header">
+          <h2>CONTACT US</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div id="form" class="form-footer">
+          <form action="">
+            <fieldset class="footer-contact">
+              <input
+                type="text"
+                name="name"
+                placeholder="First Name"
+                required
+              />
+              <br />
+              <input
+                type="text"
+                name="surname"
+                placeholder="Last Name"
+                required
+              />
+              <br />
+              <input
+                type="number"
+                name="phone"
+                placeholder="Phone Number"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <div class="input-wrap">
+                <input
+                  class="radio-button-input"
+                  type="radio"
+                  name="subscription"
+                />
+                <label class="radio-button-label" for="radioPersonal">
+                  <div class="radio-button"></div>
+                  <span>PERSONAL</span>
+                </label>
+                <input
+                  class="radio-button-input"
+                  type="radio"
+                  name="subscription"
+                />
+                <label class="radio-button-label" for="radioCompany">
+                  <div class="radio-button"></div>
+                  <span>COMPANY</span>
+                </label>
+              </div>
+            </fieldset>
+            <button
+              type="submit"
+              name="Submit"
+              value="SEND"
+              class="button-send"
+            >
+              SEND
+            </button>
+          </form>
+        </div>
+      </article>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="socials-logos">
+        <div><img src="./assets/facebook-logo.svg" alt="Facebook logo" /></div>
+        <div>
+          <img src="./assets/instagram-logo.svg" alt="Instagram logo" />
+        </div>
+        <div><img src="./assets/twitter.svg" alt="Twitter logo" /></div>
+        <div><img src="./assets/pinterest.svg" alt="Pinterest logo" /></div>
+        <div>
+          <img
+            src="./assets/rss-svgrepo-com.svg"
+            alt="Rss logo"
+            class="rss-logo"
+          />
+        </div>
+      </div>
+
+      <div class="copyright">© 2019 Cheshire County</div>
+    </footer>
   </body>
 </html>
