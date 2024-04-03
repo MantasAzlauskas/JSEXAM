@@ -616,3 +616,107 @@ nav {
   color: #86878b;
   font: normal normal normal 14px/20px Montserrat;
 }
+
+/* ---------------------------------------------------------------  Pricing  ------------------------------------------------- */
+
+#price-container {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #6696e2;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -------------------- TOP */
+
+.pricing-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-top h2 {
+  color: #ffffff;
+  font: normal normal 600 36px/43px Montserrat;
+  margin-bottom: 20px;
+}
+
+.pricing-divider {
+  background-color: #41d395;
+  height: 2px;
+  width: 64px;
+  margin-bottom: 20px;
+}
+
+.pricing-top p {
+  color: #ffffff;
+  font: normal normal normal 14px/20px Montserrat;
+  margin: 0;
+}
+
+/* -------------------- Middle */
+
+.pricing-box-container {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 60px;
+}
+
+.pricing-box {
+  width: 343px;
+  border-radius: 5px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.pricing-box-top {
+  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.pricing-plan {
+  font: normal normal normal 20px/24px Montserrat;
+}
+
+.price {
+  font: normal normal normal 94px Montserrat;
+}
+
+.price span {
+  font: normal normal normal 24px Montserrat;
+}
+
+.payment {
+  font: normal normal normal 14px/24px Montserrat;
+  opacity: 50%;
+}
+
+.pricing-box-divider {
+  background-color: #41d395;
+  border-bottom: 3px solid #41d395;
+  border-top: 3px solid #41d395;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pricing-box-divider p {
+  font: normal normal normal 14px/24px Montserrat;
+  margin: 10px;
+}
+
+.pricing-box-bottom {
+  background-color: white;
+  color: #86878b;
+  overflow: hidden;
+  font: normal normal normal 14px/24px Montserrat;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+}
+.pricing-box-bottom p:last-child {
+  margin-bottom: 10px;
+}
