@@ -15,7 +15,7 @@ body {
 nav {
   position: relative;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
   padding: 10px;
 }
@@ -40,6 +40,12 @@ nav {
   border-bottom: 2px solid #e27866;
   color: white;
   opacity: 1;
+}
+#menu-burger {
+  color: #e27866;
+  font-size: 30px;
+  display: none;
+  cursor: pointer;
 }
 
 /* --------------------------------------------------------------- ARTICLE 1------------------------------------------------- */
@@ -329,7 +335,7 @@ nav {
 
 /* -------------------- LEFT 3 BUTTONS */
 
-.feature-left-button {
+#feature-left-button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -901,4 +907,221 @@ footer {
 }
 .active-dot {
   background-color: #e27866;
+}
+/* ---------------------------------------------------------------  Mobile  ------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+  #menu-burger {
+    display: block;
+    position: relative;
+    cursor: pointer;
+  }
+  #header-rigth-nav {
+    display: none;
+    position: absolute;
+    top: 92%;
+    left: 80%;
+    background-color: #1c1c1c;
+    height: 400px;
+  }
+  #header-rigth-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  nav {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* ----- */
+
+  #home {
+    flex-direction: column; /* Keičiame išdėstymą į stulpelį */
+    align-items: center; /* Centruojame elementus horizontaliai */
+    padding: 60px 0px 80px 0px; /* Mažiname viršutinį ir apatinį padding'ą */
+    height: auto; /* Nustatome aukštį, kad jis priklausytų nuo turinio */
+  }
+
+  #left-text-article-1 {
+    width: auto; /* Pritaikome ploto prie turinio */
+    height: auto; /* Pritaikome aukštį prie turinio */
+    left: 0; /* Nesiklijuojame prie kairės krašto */
+    margin-bottom: 30px; /* Pridedame tarpą tarp kairiojo ir dešiniojo skydelių */
+  }
+  #logo-bigger {
+    display: none;
+  }
+
+  #text {
+    text-align: center; /* Centruojame tekstą */
+  }
+
+  #text h1 {
+    top: initial; /* Panaikiname viršūninį pozicionavimą */
+    left: initial; /* Panaikiname viršūninį pozicionavimą */
+    width: auto; /* Pritaikome plotį prie turinio */
+    height: auto; /* Pritaikome aukštį prie turinio */
+    text-align: center; /* Centruojame antraštę */
+    font-size: 30px; /* Sumažiname šriftą */
+    line-height: 36px; /* Koreguojame eilučių tarpą */
+    margin-bottom: 20px; /* Pridedame tarpą tarp antraštės ir linijos */
+  }
+
+  .line {
+    top: initial; /* Panaikiname viršūninį pozicionavimą */
+    left: initial; /* Panaikiname viršūninį pozicionavimą */
+    margin: 0 auto 20px; /* Centruojame liniją */
+  }
+
+  #text p {
+    top: initial; /* Panaikiname viršūninį pozicionavimą */
+    left: initial; /* Panaikiname viršūninį pozicionavimą */
+    width: 350px; /* Pritaikome plotį prie turinio */
+    height: auto; /* Pritaikome aukštį prie turinio */
+    text-align: center; /* Centruojame teksto bloką */
+    font-size: 14px; /* Sumažiname šriftą */
+    line-height: 20px; /* Koreguojame eilučių tarpą */
+    margin-bottom: 20px; /* Pridedame tarpą tarp teksto ir mygtuko */
+  }
+
+  #text button {
+    margin: 0 auto; /* Centruojame mygtuką */
+  }
+
+  #form {
+    margin-top: 30px; /* Pridedame tarpą tarp teksto ir formos */
+    width: 100%; /* Padidiname formos plotį */
+    max-width: 360px; /* Nustatome maksimalų plotį */
+    left: initial; /* Panaikiname viršūninį pozicionavimą */
+  }
+
+  #form h1 {
+    width: 100%; /* Padidiname antraštės plotį */
+    left: initial; /* Panaikiname viršūninį pozicionavimą */
+    text-align: center; /* Centruojame antraštę */
+  }
+
+  /* ------ */
+  #social-media .container {
+    flex-direction: column; /* Keičiame išdėstymą į stulpelį */
+    align-items: center; /* Centruojame elementus horizontaliai */
+
+    max-width: 100%; /* Padidiname maksimalų plotį, kad jis užimtų visas ekrano pločio erdves */
+  }
+
+  #social-media .container .text {
+    display: none; /* Slėpiame tekstą */
+  }
+
+  #social-media .container .media-icon-container {
+    height: 50px;
+    max-width: 100%;
+    justify-content: space-evenly;
+    align-items: center; /* Padidiname maksimalų plotį, kad jis užimtų visas ekrano pločio erdves */
+  }
+
+  #social-media .container .media-icon-container .media-icon {
+    max-height: 25px; /* Sumažiname socialinių žiniasklaidos ikonų aukštį */
+  }
+  /* ----- */
+  #feature {
+    flex-direction: column; /* Keičiame išdėstymą į stulpelį */
+    align-items: center; /* Centruojame elementus horizontaliai */
+  }
+
+  #feature-left-button {
+    flex-direction: row; /* Nustatome eilutės išdėstymą */
+  }
+
+  .feature-button-box {
+    width: 100px; /* Sumažiname mygtukų pločius */
+    height: 100px; /* Sumažiname mygtukų aukštį */
+    margin-right: 10px; /* Pridedame tarpą tarp mygtukų */
+    margin-bottom: 0px;
+    font-size: 12px; /* Sumažiname šrifto dydį */
+  }
+
+  .text-box {
+    padding: 20px 0; /* Pridedame tarpą tarp teksto ir vaizdų */
+    text-align: center; /* Centruojame tekstą */
+  }
+
+  .text-box h3 {
+    font-size: 20px; /* Sumažiname šrifto dydį */
+    line-height: 24px; /* Koreguojame eilučių tarpą */
+    height: 80px;
+    text-align: center;
+  }
+
+  .text-box p {
+    font-size: 12px; /* Sumažiname šrifto dydį */
+    line-height: 18px; /* Koreguojame eilučių tarpą */
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .not-displayed {
+    display: none;
+  }
+
+  .images-box {
+    width: 100%; /* Padidiname vaizdų dėžės plotį */
+    flex-direction: row; /* Keičiame išdėstymą į stulpelį */
+    align-items: center; /* Centruojame elementus horizontaliai */
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .explore {
+    font-size: 14px; /* Sumažiname šrifto dydį */
+  }
+  /* ----- */
+  #about {
+    padding: 50px 0px; /* Sumažiname tarpinį padding'ą */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article4-logo img {
+    width: 100%; /* Paveikslėlis užima visą turimą plotį */
+    height: auto; /* Užtikriname proporcingumą */
+    display: none;
+  }
+
+  .article4-text {
+    padding-left: 0; /* Pašaliname kairinį padding'ą */
+    margin-top: 20px; /* Pridedame tarpą viršuje */
+    text-align: center; /* Centruojame tekstą */
+  }
+  .article4-top-text h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .article4-divider {
+    margin: 20px auto; /* Centruojame skydelį */
+  }
+  .icon-circle {
+    margin-bottom: 30px;
+  }
+
+  .row-element {
+    flex-direction: column; /* Elementai eis stulpeliu */
+    align-items: center; /* Nustatome horizontalų išdėstymą į kairę */
+    margin-bottom: 20px; /* Pridedame tarpą tarp elementų */
+  }
+  /* ----- */
+  .awesome-items-box {
+    display: flex;
+    flex-direction: column;
+  }
+  /* ------ */
+  .pricing-box-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #review-gallery {
+    padding: 0px;
+  }
 }
