@@ -937,126 +937,126 @@ footer {
   /* ----- */
 
   #home {
-    flex-direction: column; /* Keičiame išdėstymą į stulpelį */
-    align-items: center; /* Centruojame elementus horizontaliai */
-    padding: 60px 0px 80px 0px; /* Mažiname viršutinį ir apatinį padding'ą */
-    height: auto; /* Nustatome aukštį, kad jis priklausytų nuo turinio */
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px 80px 0px;
+    height: auto;
   }
 
   #left-text-article-1 {
-    width: auto; /* Pritaikome ploto prie turinio */
-    height: auto; /* Pritaikome aukštį prie turinio */
-    left: 0; /* Nesiklijuojame prie kairės krašto */
-    margin-bottom: 30px; /* Pridedame tarpą tarp kairiojo ir dešiniojo skydelių */
+    width: auto;
+    height: auto;
+    left: 0;
+    margin-bottom: 30px;
   }
   #logo-bigger {
     display: none;
   }
 
   #text {
-    text-align: center; /* Centruojame tekstą */
+    text-align: center;
   }
 
   #text h1 {
-    top: initial; /* Panaikiname viršūninį pozicionavimą */
-    left: initial; /* Panaikiname viršūninį pozicionavimą */
-    width: auto; /* Pritaikome plotį prie turinio */
-    height: auto; /* Pritaikome aukštį prie turinio */
-    text-align: center; /* Centruojame antraštę */
-    font-size: 30px; /* Sumažiname šriftą */
-    line-height: 36px; /* Koreguojame eilučių tarpą */
-    margin-bottom: 20px; /* Pridedame tarpą tarp antraštės ir linijos */
+    top: initial;
+    left: initial;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 20px;
   }
 
   .line {
-    top: initial; /* Panaikiname viršūninį pozicionavimą */
-    left: initial; /* Panaikiname viršūninį pozicionavimą */
-    margin: 0 auto 20px; /* Centruojame liniją */
+    top: initial;
+    left: initial;
+    margin: 0 auto 20px;
   }
 
   #text p {
-    top: initial; /* Panaikiname viršūninį pozicionavimą */
-    left: initial; /* Panaikiname viršūninį pozicionavimą */
-    width: 350px; /* Pritaikome plotį prie turinio */
-    height: auto; /* Pritaikome aukštį prie turinio */
-    text-align: center; /* Centruojame teksto bloką */
-    font-size: 14px; /* Sumažiname šriftą */
-    line-height: 20px; /* Koreguojame eilučių tarpą */
-    margin-bottom: 20px; /* Pridedame tarpą tarp teksto ir mygtuko */
+    top: initial;
+    left: initial;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
   }
 
   #text button {
-    margin: 0 auto; /* Centruojame mygtuką */
+    margin: 0 auto;
   }
 
   #form {
-    margin-top: 30px; /* Pridedame tarpą tarp teksto ir formos */
-    width: 100%; /* Padidiname formos plotį */
-    max-width: 360px; /* Nustatome maksimalų plotį */
-    left: initial; /* Panaikiname viršūninį pozicionavimą */
+    margin-top: 30px;
+    width: 100%;
+    max-width: 360px;
+    left: initial;
   }
 
   #form h1 {
-    width: 100%; /* Padidiname antraštės plotį */
-    left: initial; /* Panaikiname viršūninį pozicionavimą */
-    text-align: center; /* Centruojame antraštę */
+    width: 100%;
+    left: initial;
+    text-align: center;
   }
 
   /* ------ */
   #social-media .container {
-    flex-direction: column; /* Keičiame išdėstymą į stulpelį */
-    align-items: center; /* Centruojame elementus horizontaliai */
+    flex-direction: column;
+    align-items: center;
 
-    max-width: 100%; /* Padidiname maksimalų plotį, kad jis užimtų visas ekrano pločio erdves */
+    max-width: 100%;
   }
 
   #social-media .container .text {
-    display: none; /* Slėpiame tekstą */
+    display: none;
   }
 
   #social-media .container .media-icon-container {
     height: 50px;
     max-width: 100%;
     justify-content: space-evenly;
-    align-items: center; /* Padidiname maksimalų plotį, kad jis užimtų visas ekrano pločio erdves */
+    align-items: center;
   }
 
   #social-media .container .media-icon-container .media-icon {
-    max-height: 25px; /* Sumažiname socialinių žiniasklaidos ikonų aukštį */
+    max-height: 25px;
   }
   /* ----- */
   #feature {
-    flex-direction: column; /* Keičiame išdėstymą į stulpelį */
-    align-items: center; /* Centruojame elementus horizontaliai */
+    flex-direction: column;
+    align-items: center;
   }
 
   #feature-left-button {
-    flex-direction: row; /* Nustatome eilutės išdėstymą */
+    flex-direction: row;
   }
 
   .feature-button-box {
-    width: 100px; /* Sumažiname mygtukų pločius */
-    height: 100px; /* Sumažiname mygtukų aukštį */
-    margin-right: 10px; /* Pridedame tarpą tarp mygtukų */
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
     margin-bottom: 0px;
-    font-size: 12px; /* Sumažiname šrifto dydį */
+    font-size: 12px;
   }
 
   .text-box {
-    padding: 20px 0; /* Pridedame tarpą tarp teksto ir vaizdų */
-    text-align: center; /* Centruojame tekstą */
+    padding: 20px 0;
+    text-align: center;
   }
 
   .text-box h3 {
-    font-size: 20px; /* Sumažiname šrifto dydį */
-    line-height: 24px; /* Koreguojame eilučių tarpą */
+    font-size: 20px;
+    line-height: 24px;
     height: 80px;
     text-align: center;
   }
 
   .text-box p {
-    font-size: 12px; /* Sumažiname šrifto dydį */
-    line-height: 18px; /* Koreguojame eilučių tarpą */
+    font-size: 12px;
+    line-height: 18px;
   }
   .box {
     display: flex;
@@ -1067,32 +1067,32 @@ footer {
   }
 
   .images-box {
-    width: 100%; /* Padidiname vaizdų dėžės plotį */
-    flex-direction: row; /* Keičiame išdėstymą į stulpelį */
-    align-items: center; /* Centruojame elementus horizontaliai */
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
     display: flex;
     flex-wrap: nowrap;
   }
   .explore {
-    font-size: 14px; /* Sumažiname šrifto dydį */
+    font-size: 14px;
   }
   /* ----- */
   #about {
-    padding: 50px 0px; /* Sumažiname tarpinį padding'ą */
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
   }
 
   .article4-logo img {
-    width: 100%; /* Paveikslėlis užima visą turimą plotį */
-    height: auto; /* Užtikriname proporcingumą */
+    width: 100%;
+    height: auto;
     display: none;
   }
 
   .article4-text {
-    padding-left: 0; /* Pašaliname kairinį padding'ą */
-    margin-top: 20px; /* Pridedame tarpą viršuje */
-    text-align: center; /* Centruojame tekstą */
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: center;
   }
   .article4-top-text h3 {
     text-align: center;
@@ -1100,16 +1100,16 @@ footer {
   }
 
   .article4-divider {
-    margin: 20px auto; /* Centruojame skydelį */
+    margin: 20px auto;
   }
   .icon-circle {
     margin-bottom: 30px;
   }
 
   .row-element {
-    flex-direction: column; /* Elementai eis stulpeliu */
-    align-items: center; /* Nustatome horizontalų išdėstymą į kairę */
-    margin-bottom: 20px; /* Pridedame tarpą tarp elementų */
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
   }
   /* ----- */
   .awesome-items-box {
